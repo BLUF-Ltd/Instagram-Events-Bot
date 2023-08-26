@@ -70,7 +70,7 @@ the setting up of a connection to our database. Rather than repeat ourselves, yo
 
 
 ## The main Instagram feed
-The main part of this project is the event_insta_feed.php file. This is a script that's designed to be run at intervals, for example
+The main part of this project is the [event_insta_feed.php](event_insta_feed.php) file. This is a script that's designed to be run at intervals, for example
 from cron. It takes at least one parameter, which is the mode option, eg 
 
 		php8.2 event_insta_feed.php --mode=daily
